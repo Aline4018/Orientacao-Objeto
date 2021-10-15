@@ -1,6 +1,6 @@
 Orientação a Objeto em TS
 =============
-####4 Pilares de Orientação Objeto
+#### 4 Pilares de Orientação Objeto
  + Abstração
  > => Transforma o nosso problema do mundo real o mais próximo possível da programação
 - 1 Identidade = Produto
@@ -15,7 +15,7 @@ Orientação a Objeto em TS
 + Polimorfismo
 >=> 	Dinamismo para trabalhar chamadas com comportamentos diferentes debaixo dos panos.
 
-####Vantagens
+#### Vantagens
 + => Prática de programação
 Representação do mundo real
 + => Segurança
@@ -102,7 +102,7 @@ Ex. Um livro, um telefone, uma faculdade, um produto, um aluno, um professor.
 | Acelerar    |
 | TrocarMarcha    | 
 
-####TyperScript :
+#### TyperScript :
 - Tem o intuito de ajudar em vários pontos e ajuda na orientação Objeto;
 - Códigos mais elegantes e utilizados;
 - Intellisense e verbosidade: Autocompile, opções para manipulação da string, feedbacks em tempo de compilação, recursos mais completos do Javascript, produtividade, Tipagem.
