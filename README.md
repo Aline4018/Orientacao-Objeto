@@ -91,7 +91,7 @@ Ex. Um livro, um telefone, uma faculdade, um produto, um aluno, um professor.
         Classe e Objeto (2/2) - Montar o Esqueleto
 
 | Carro     | 
-| --------- | -----:|
+| --------- | 
 | Marca | 
 | Modelo     |  
 | Ano      | 
