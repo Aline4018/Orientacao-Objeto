@@ -107,7 +107,43 @@ Ex. Um livro, um telefone, uma faculdade, um produto, um aluno, um professor.
 - Códigos mais elegantes e utilizados;
 - Intellisense e verbosidade: Autocompile, opções para manipulação da string, feedbacks em tempo de compilação, recursos mais completos do Javascript, produtividade, Tipagem.
 
+#### Encapsulamento
+- Criamos a classe personagem, definimos atributos para ela, Deixamos todos eles com o Public que é um modificador de acesso. Deixamos os menbros da nossa classe expostos. Os metodos estão expostos do nosso objeto.
+-  Passar a proteger os atributos e prover acessos de forma moderada para para eles. Prooteger da nossa classe tudo que noso temos.
+-  A proposta de isolar o maximo possivel as classes, de forma a esconder detalhes de funcionamento interno.
+-  Visa aumentar a flexibilidade, melhorar a manutençaõ e aumentar a extensibilidade do software.
+- Modificadores de acesso: Permitem configurar a visibilidade dos nossos atributos, classes e metodos.
+#### Modificadores de acesso
+- Public  (+)
+- Utilizada de forma restrita, apenas quando desejamos que outras classes " Enxerguem" nossa classe, metodo ou atributo. Torna visivel em todo o projeto.
+- Metodos, sempre que possivel não devem ser publicos, mas normalmente são.
+- É a visibilidade padrão no Typescript
 
+- Private (-)
+- Utilizada sempre que possível.Torna a visibilidade apenas local(mesmo arquivo), tornando invisivel para outras classes.
+- Atributos normalmente são privados
+- Metodos que implementam rotinas internas ( metodos auxiliares) devem ser privados.
+
+- Protected (#)
+- Torna visivel por classes herdadas( conceito abordado futuramente)
+- Utilizado, eventualmente, quando trabalhando com herança.
+
+#### Métodos de acesso
+- Tem como unica funcionalidade prover acesso aos atributos privados os quais julgamos que devem ser acessados.
+- Cracteristicas:
+- REtorno o tipo do atributo que será provido a acesso;
+- Não recebe parametro;
+- Seu nome é composto pelo prefixo "get" seguido do nome do atributo que o acesso será provido.
+#### Metodos modificadores
+- Metodod que tem como unica funcionalidade prover modificação aos atributos privados os quais julgamos que podem ser modificados por outras classes.
+- Caraceteristicas:
+- Não possuem retorno
+- Recebe por parametro o valor a ser inserido no atributo;
+- SEu nome é composto pelo prefixo "set" seguido do nome do atributo que iremos possibilitar a modificação.
+- ![image](https://user-images.githubusercontent.com/90521812/138950391-7efc7672-115e-4bb4-91f8-c3b0bfb82378.png)
+
+#### O motivo
+- Porque nos metodos de acesso podemos controlar como a informação será retornada( No caso dos gets) e que tipo de dado será aceito para modificação (No caso sets)
 
 
 
