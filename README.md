@@ -134,6 +134,8 @@ Ex. Um livro, um telefone, uma faculdade, um produto, um aluno, um professor.
 - REtorno o tipo do atributo que será provido a acesso;
 - Não recebe parametro;
 - Seu nome é composto pelo prefixo "get" seguido do nome do atributo que o acesso será provido.
+- ![image](https://user-images.githubusercontent.com/90521812/138951206-4316f9a1-286e-4fb2-8239-142256d9f3af.png)
+
 #### Metodos modificadores
 - Metodod que tem como unica funcionalidade prover modificação aos atributos privados os quais julgamos que podem ser modificados por outras classes.
 - Caraceteristicas:
