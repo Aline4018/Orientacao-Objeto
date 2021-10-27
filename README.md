@@ -147,6 +147,18 @@ Ex. Um livro, um telefone, uma faculdade, um produto, um aluno, um professor.
 #### O motivo
 - Porque nos metodos de acesso podemos controlar como a informação será retornada( No caso dos gets) e que tipo de dado será aceito para modificação (No caso sets)
 
+#### Herança
+- Exemplo:
+- 1 ![image](https://user-images.githubusercontent.com/90521812/139075636-05a06929-11d1-4416-a158-b860748a51e9.png)
+- 2 ![image](https://user-images.githubusercontent.com/90521812/139078832-1f8bad6c-2047-4dd9-8086-e8fa305cd0ba.png)
+- Posso criar super classes, que serão guarda chuvas com todos os atributos e metodoos em comum para todas essas subclasses, e aí eu deixo na sub classe somente o que é especifico dessa, eliminando assim toda essa redundancia de codigo.
+- 3 ![image](https://user-images.githubusercontent.com/90521812/139084880-4a3ada21-385f-4e8e-a9dc-f2ff26e4fe28.png)
+- 4 Chamada da super sempre deve ser na primeira linha da super classe
+- 5 ![image](https://user-images.githubusercontent.com/90521812/139092998-d4df06f4-6608-4fa0-a1c3-d503c4fa554b.png)
+- 6 ![image](https://user-images.githubusercontent.com/90521812/139096545-e4325c55-e87e-4e28-8915-2e0ccf16551d.png)
+- Sabemos que precisa de herança quando é um personagem (Precisa de herança) ou tem um atributo ( Composição)
+ - Regrinha: "é um"( Herança ) ou "Tem um" ( Composição ).
+ - Para não termos extenções da classe é nescessário deixar o constructor privado.
+ - ![image](https://user-images.githubusercontent.com/90521812/139101918-182d7040-576c-4dfe-a071-e8ea8b2c21aa.png)
 
-
-
+ - 
